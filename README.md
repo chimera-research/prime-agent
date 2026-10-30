@@ -38,6 +38,14 @@ Prime Agent is an open-source coding and research agent for general and long-run
 - The **[Recursive Language Model (RLM)](https://www.primeintellect.ai/blog/rlm)** treats context as variables (*prompt-as-a-variable*) and tools like recursive subagents as function calls (*programmatic tool /sub-agent calling*) inside a persistent REPL.
 - The **[Continual Harness](https://arxiv.org/abs/2605.09998)** stores supplemental prompts, memories, skill descriptions, and reusable subagent specifications as durable state that Prime Agent can refine through small, evidence-backed updates, local to the session by default.
 
+## Source-grounded learning guide
+
+The independent [Rust implementation learning guide](docs/learning/README.md),
+prepared for Chimera Research, covers features, concepts, process/crate ownership,
+source walkthroughs, tradeoffs, and a no-paid-inference learning lab. It pins its
+upstream revision and distinguishes inspected behavior from observations and
+inferences. The upstream attribution, citation, and license below are unchanged.
+
 ## Install
 
 Install the latest stable version with the one-command installer:
